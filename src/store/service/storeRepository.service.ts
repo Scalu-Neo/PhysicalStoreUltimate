@@ -3,7 +3,7 @@ import { StoreRepository } from '../repository/store.repository';
 import { Store } from '../entities/store.entity';
 
 @Injectable()
-export class StoreService {
+export class StoreServiceRepository {
   
   constructor(private readonly storeRepository: StoreRepository){}
 
